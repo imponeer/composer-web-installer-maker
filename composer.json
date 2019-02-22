@@ -1,0 +1,23 @@
+{
+    "name": "imponeer/installer-maker",
+    "description": "Tool that makes installer from composer package",
+    "type": "library",
+    "require": {
+        "composer/composer": "^1.8",
+        "symfony/console": "^4.2",
+        "ocramius/package-versions": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raimondas Rimkevičius",
+            "email": "mekdrop@impresscms.org"
+        }
+    ],
+    "bin": [
+        "bin/installer-maker.php"
+    ]
+}
